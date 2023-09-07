@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:petcare/screens/tabs/about_tab.dart';
 import 'package:petcare/screens/tabs/home_tab.dart';
 import 'package:petcare/screens/tabs/services_tab.dart';
 import 'package:petcare/widgets/text_widget.dart';
@@ -62,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                     HomeTab(),
                     SizedBox(),
                     ServicesTab(),
-                    SizedBox(),
+                    AboutTab(),
                     SizedBox(),
                   ],
                 ),
